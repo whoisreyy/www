@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Anonymous</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#schedule" class="nav__link">Schedule</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Anonymous</span><br> Web Designer</h1>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 0 0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Our Skills</h2>
+                        <p class="skills__text">Berikut adalah keterampilan yg kita miliki, walaupun belum semuanya kita kuasai</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">13%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">8%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">3%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SCHEDULE =====-->
+            <section class="schedule section" id="schedule">
+                <h2 class="section-title">Work Schedule</h2>
+
+                <div class="schedule__container bd-grid">
+                    <div class="schedule__table-container">
+                        <table class="schedule__table">
+                            <thead>
+                                <tr>
+                                    <th>Hari</th>
+                                    <th>Jam</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="schedule__row schedule__row--work">
+                                    <td class="schedule__day">Senin</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Masuk</td>
+                                </tr>
+                                <tr class="schedule__row schedule__row--work">
+                                    <td class="schedule__day">Selasa</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Masuk</td>
+                                </tr>
+                                <tr class="schedule__row schedule__row--work">
+                                    <td class="schedule__day">Rabu</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Masuk</td>
+                                </tr>
+                                <tr class="schedule__row schedule__row--work">
+                                    <td class="schedule__day">Kamis</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Masuk</td>
+                                    
+                                </tr>
+                                <tr class="schedule__row schedule__row--off">
+                                    <td class="schedule__day">Jum'at</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Libur</td>
+                                </tr>
+                                <tr class="schedule__row schedule__row--off">
+                                    <td class="schedule__day">Sabtu</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Libur</td>
+                                </tr>
+                                <tr class="schedule__row schedule__row--off">
+                                    <td class="schedule__day">Minggu</td>
+                                    <td class="schedule__hours">10:00 - 17:00</td>
+                                    <td class="schedule__status">Libur</td>  
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <!-- Month Navigation -->
+                <div class="months__navigation">
+                    <div class="months__list">
+                        <button class="months__btn active" data-month="september">
+                            <span class="months__year">2025</span>
+                            <span class="months__name">September</span>
+                            <div class="months__indicator"></div>
+                        </button>
+                        <button class="months__btn" data-month="oktober">
+                            <span class="months__year">2025</span>
+                            <span class="months__name">Oktober</span>
+                            <div class="months__indicator"></div>
+                        </button>
+                        <button class="months__btn" data-month="november">
+                            <span class="months__year">2025</span>
+                            <span class="months__name">November</span>
+                            <div class="months__indicator"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="work__timeline">
+                    <!-- September 2025 -->
+                    <div class="work__month active" data-month="september">
+                        <div class="work__slider-container">
+                            <button class="work__slider-btn work__slider-prev">
+                                <i class='bx bx-chevron-left'></i>
+                            </button>
+                            
+                            <div class="work__slider">
+                                <div class="work__slider-track">
+                                    <!-- Slide 1 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Sep 1</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work1.jpg" alt="Web Design Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Website Portfolio</h4>
+                                                <p class="work__description">Design and development of personal portfolio website with responsive layout.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">HTML</span>
+                                                    <span class="work__tag">CSS</span>
+                                                    <span class="work__tag">JavaScript</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Sep 10</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work2.jpg" alt="E-commerce Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">E-commerce Dashboard</h4>
+                                                <p class="work__description">Admin dashboard for e-commerce platform with analytics and user management.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">React</span>
+                                                    <span class="work__tag">Node.js</span>
+                                                    <span class="work__tag">MongoDB</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Sep 20</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work3.jpg" alt="Mobile App Design">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Fitness Mobile App</h4>
+                                                <p class="work__description">UI/UX design for fitness tracking mobile application with workout plans.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Figma</span>
+                                                    <span class="work__tag">UI/UX</span>
+                                                    <span class="work__tag">Prototype</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 4 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Sep 25</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work4.jpg" alt="Brand Identity">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Brand Identity</h4>
+                                                <p class="work__description">Complete brand identity design including logo, color palette, and typography.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Logo Design</span>
+                                                    <span class="work__tag">Branding</span>
+                                                    <span class="work__tag">Illustration</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 5 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Sep 30</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work5.jpg" alt="Web Application">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Task Management App</h4>
+                                                <p class="work__description">Web application for team task management with real-time updates.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Vue.js</span>
+                                                    <span class="work__tag">Firebase</span>
+                                                    <span class="work__tag">SASS</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="work__slider-btn work__slider-next">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                        </div>
+
+                        <div class="work__slider-dots">
+                            <!-- Dots akan di-generate oleh JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Oktober 2025 -->
+                    <div class="work__month" data-month="oktober">
+                        <div class="work__slider-container">
+                            <button class="work__slider-btn work__slider-prev">
+                                <i class='bx bx-chevron-left'></i>
+                            </button>
+                            
+                            <div class="work__slider">
+                                <div class="work__slider-track">
+                                    <!-- Slide 1 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Okt 5</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work6.jpg" alt="Social Media Design">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Social Media Campaign</h4>
+                                                <p class="work__description">Social media graphics and marketing materials for product launch campaign.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Photoshop</span>
+                                                    <span class="work__tag">Marketing</span>
+                                                    <span class="work__tag">Social Media</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Okt 10</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work1.jpg" alt="Dashboard Design">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Analytics Dashboard</h4>
+                                                <p class="work__description">Data visualization dashboard with interactive charts and reporting features.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">React</span>
+                                                    <span class="work__tag">D3.js</span>
+                                                    <span class="work__tag">API</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Okt 15</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work2.jpg" alt="Mobile UI Design">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Banking App UI</h4>
+                                                <p class="work__description">Mobile banking application interface design with focus on security and usability.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">UI Design</span>
+                                                    <span class="work__tag">Mobile</span>
+                                                    <span class="work__tag">Security</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 4 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Okt 20</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work3.jpg" alt="Website Redesign">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Corporate Website</h4>
+                                                <p class="work__description">Complete redesign of corporate website with modern design and improved UX.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Web Design</span>
+                                                    <span class="work__tag">WordPress</span>
+                                                    <span class="work__tag">SEO</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 5 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Okt 25</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work4.jpg" alt="Mobile Development">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">E-commerce Mobile App</h4>
+                                                <p class="work__description">Cross-platform mobile application for online shopping with payment integration.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">React Native</span>
+                                                    <span class="work__tag">Redux</span>
+                                                    <span class="work__tag">Stripe</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="work__slider-btn work__slider-next">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                        </div>
+
+                        <div class="work__slider-dots">
+                            <!-- Dots akan di-generate oleh JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- November 2025 -->
+                    <div class="work__month" data-month="november">
+                        <div class="work__slider-container">
+                            <button class="work__slider-btn work__slider-prev">
+                                <i class='bx bx-chevron-left'></i>
+                            </button>
+                            
+                            <div class="work__slider">
+                                <div class="work__slider-track">
+                                    <!-- Slide 1 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Nov 3</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work5.jpg" alt="AI Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">AI Chatbot</h4>
+                                                <p class="work__description">Intelligent chatbot implementation with natural language processing capabilities.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Python</span>
+                                                    <span class="work__tag">TensorFlow</span>
+                                                    <span class="work__tag">NLP</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 2 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Nov 12</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work6.jpg" alt="Cloud Architecture">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Cloud Infrastructure</h4>
+                                                <p class="work__description">Scalable cloud architecture design with microservices and containerization.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">AWS</span>
+                                                    <span class="work__tag">Docker</span>
+                                                    <span class="work__tag">Kubernetes</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 3 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Nov 18</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work1.jpg" alt="Blockchain Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">Blockchain Platform</h4>
+                                                <p class="work__description">Decentralized application development with smart contract integration.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">Solidity</span>
+                                                    <span class="work__tag">Web3</span>
+                                                    <span class="work__tag">Ethereum</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 4 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Nov 24</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work2.jpg" alt="IoT Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">IoT Smart Home</h4>
+                                                <p class="work__description">Internet of Things solution for home automation and energy management.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">IoT</span>
+                                                    <span class="work__tag">Arduino</span>
+                                                    <span class="work__tag">Raspberry Pi</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 5 -->
+                                    <div class="work__slide">
+                                        <div class="work__item">
+                                            <div class="work__date">Nov 30</div>
+                                            <div class="work__img">
+                                                <img src="assets/img/work3.jpg" alt="AR/VR Project">
+                                                <div class="work__img-overlay">
+                                                    <i class='bx bx-zoom-in'></i>
+                                                </div>
+                                            </div>
+                                            <div class="work__info">
+                                                <h4 class="work__title">AR Shopping Experience</h4>
+                                                <p class="work__description">Augmented reality application for virtual product try-on and visualization.</p>
+                                                <div class="work__tags">
+                                                    <span class="work__tag">AR/VR</span>
+                                                    <span class="work__tag">Unity</span>
+                                                    <span class="work__tag">3D Modeling</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="work__slider-btn work__slider-next">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                        </div>
+
+                        <div class="work__slider-dots">
+                            <!-- Dots akan di-generate oleh JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Anonymous</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
